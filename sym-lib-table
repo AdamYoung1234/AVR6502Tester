@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name usbmini_b05)(type Legacy)(uri ${KIPRJMOD}/lib/usbmini_b05.lib)(options "")(descr ""))
+  (lib (name atmega32u4)(type Legacy)(uri ${KIPRJMOD}/lib/atmega32u4.lib)(options "")(descr ""))
+  (lib (name dtsjw)(type Legacy)(uri ${KIPRJMOD}/lib/dtsjw.lib)(options "")(descr ""))
+  (lib (name conn)(type Legacy)(uri ${KIPRJMOD}/lib/conn.lib)(options "")(descr ""))
+  (lib (name mx1a-simple)(type Legacy)(uri ${KIPRJMOD}/lib/mx1a-simple.lib)(options "")(descr ""))
+  (lib (name led)(type Legacy)(uri ${KIPRJMOD}/lib/led.lib)(options "")(descr ""))
+)

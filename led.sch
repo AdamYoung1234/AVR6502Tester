@@ -1,0 +1,177 @@
+EESchema Schematic File Version 4
+LIBS:AVR6502Tester-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L led:LED LED1
+U 1 1 5C25D910
+P 5150 3100
+F 0 "LED1" H 5150 2947 50  0000 C CNN
+F 1 "LED" H 5150 2946 50  0001 C CNN
+F 2 "mx1a-led:MX1A-led" H 5150 3100 60  0001 C CNN
+F 3 "" H 5150 3100 60  0000 C CNN
+	1    5150 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R XR1
+U 1 1 5C25DAC0
+P 5450 2850
+F 0 "XR1" H 5520 2896 50  0000 L CNN
+F 1 "330R" V 5450 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5380 2850 50  0001 C CNN
+F 3 "~" H 5450 2850 50  0001 C CNN
+	1    5450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3100 5450 3100
+Wire Wire Line
+	5450 3100 5450 3000
+Wire Wire Line
+	5450 2700 5450 2550
+$Comp
+L led:LED LED2
+U 1 1 5C25DCB1
+P 6350 3100
+F 0 "LED2" H 6350 2947 50  0000 C CNN
+F 1 "LED" H 6350 2946 50  0001 C CNN
+F 2 "mx1a-led:MX1A-led" H 6350 3100 60  0001 C CNN
+F 3 "" H 6350 3100 60  0000 C CNN
+	1    6350 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R XR2
+U 1 1 5C25DCB8
+P 6650 2850
+F 0 "XR2" H 6720 2896 50  0000 L CNN
+F 1 "330R" V 6650 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6580 2850 50  0001 C CNN
+F 3 "~" H 6650 2850 50  0001 C CNN
+	1    6650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3100 6650 3100
+Wire Wire Line
+	6650 3100 6650 3000
+Wire Wire Line
+	6650 2700 6650 2550
+$Comp
+L led:LED LED3
+U 1 1 5C25DE2F
+P 5200 4450
+F 0 "LED3" H 5200 4297 50  0000 C CNN
+F 1 "LED" H 5200 4296 50  0001 C CNN
+F 2 "mx1a-led:MX1A-led" H 5200 4450 60  0001 C CNN
+F 3 "" H 5200 4450 60  0000 C CNN
+	1    5200 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R XR3
+U 1 1 5C25DE36
+P 5500 4200
+F 0 "XR3" H 5570 4246 50  0000 L CNN
+F 1 "330R" V 5500 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 4200 50  0001 C CNN
+F 3 "~" H 5500 4200 50  0001 C CNN
+	1    5500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4450 5500 4450
+Wire Wire Line
+	5500 4450 5500 4350
+Wire Wire Line
+	5500 4050 5500 3900
+$Comp
+L led:LED LED4
+U 1 1 5C25E005
+P 6400 4450
+F 0 "LED4" H 6400 4297 50  0000 C CNN
+F 1 "LED" H 6400 4296 50  0001 C CNN
+F 2 "mx1a-led:MX1A-led" H 6400 4450 60  0001 C CNN
+F 3 "" H 6400 4450 60  0000 C CNN
+	1    6400 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R XR4
+U 1 1 5C25E00C
+P 6700 4200
+F 0 "XR4" H 6770 4246 50  0000 L CNN
+F 1 "330R" V 6700 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 4200 50  0001 C CNN
+F 3 "~" H 6700 4200 50  0001 C CNN
+	1    6700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4450 6700 4450
+Wire Wire Line
+	6700 4450 6700 4350
+Wire Wire Line
+	6700 4050 6700 3900
+Wire Wire Line
+	4950 3100 4850 3100
+Wire Wire Line
+	6150 3100 6050 3100
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 3100 4850 4450
+Wire Wire Line
+	5000 4450 4850 4450
+Connection ~ 4850 4450
+Wire Wire Line
+	4850 4450 4850 4800
+Connection ~ 6050 3100
+Wire Wire Line
+	6050 3100 6050 4450
+Wire Wire Line
+	6050 4450 6200 4450
+Connection ~ 6050 4450
+Wire Wire Line
+	6050 4450 6050 4850
+Wire Wire Line
+	6700 3900 5500 3900
+Connection ~ 5500 3900
+Wire Wire Line
+	6700 3900 7350 3900
+Connection ~ 6700 3900
+Wire Wire Line
+	5450 2550 6650 2550
+Wire Wire Line
+	6650 2550 7350 2550
+Connection ~ 6650 2550
+Connection ~ 5450 2550
+Wire Wire Line
+	4200 2550 5450 2550
+Wire Wire Line
+	4200 3900 5500 3900
+Wire Wire Line
+	6050 2100 6050 3100
+Wire Wire Line
+	4850 2100 4850 3100
+Text HLabel 4850 2100 1    50   BiDi ~ 0
+LED_COL0
+Text HLabel 6050 2100 1    50   BiDi ~ 0
+LED_COL1
+Text HLabel 4200 2550 0    50   BiDi ~ 0
+LED_ROW0
+Text HLabel 4200 3900 0    50   BiDi ~ 0
+LED_ROW1
+$EndSCHEMATC

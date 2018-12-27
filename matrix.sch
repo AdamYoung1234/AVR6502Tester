@@ -1,0 +1,181 @@
+EESchema Schematic File Version 4
+LIBS:AVR6502Tester-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mx1a-simple:MX1A S1
+U 1 1 5C36E375
+P 4750 2950
+F 0 "S1" H 4700 3250 60  0000 R CNN
+F 1 "MX1A" H 4850 3000 60  0000 R CNN
+F 2 "MX1A:MX1A-simple" H 4750 2950 50  0001 C CNN
+F 3 "" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2500 4550 2550
+$Comp
+L pspice:DIODE D1
+U 1 1 5C36E411
+P 4700 3100
+F 0 "D1" H 4700 2950 50  0000 C CNN
+F 1 "DIODE" H 4700 3274 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4700 3100 50  0001 C CNN
+F 3 "~" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3100 4900 3100
+Wire Wire Line
+	4950 2800 4950 3100
+Wire Wire Line
+	4500 3100 4500 3350
+Wire Wire Line
+	4500 3350 5100 3350
+Wire Wire Line
+	5100 2100 5100 3350
+Connection ~ 5100 3350
+$Comp
+L mx1a-simple:MX1A S2
+U 1 1 5C36E8D7
+P 6050 3000
+F 0 "S2" H 6000 3300 60  0000 R CNN
+F 1 "MX1A" H 6150 3050 60  0000 R CNN
+F 2 "MX1A:MX1A-simple" H 6050 3000 50  0001 C CNN
+F 3 "" H 6050 3000 50  0001 C CNN
+	1    6050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D2
+U 1 1 5C36E8DE
+P 6000 3150
+F 0 "D2" H 6000 3000 50  0000 C CNN
+F 1 "DIODE" H 6000 3324 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 3150 50  0001 C CNN
+F 3 "~" H 6000 3150 50  0001 C CNN
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3150 6200 3150
+Wire Wire Line
+	6250 2850 6250 3150
+Wire Wire Line
+	5800 3150 5800 3400
+Wire Wire Line
+	5800 3400 6400 3400
+$Comp
+L mx1a-simple:MX1A S3
+U 1 1 5C36E9DE
+P 4750 4050
+F 0 "S3" H 4700 4350 60  0000 R CNN
+F 1 "MX1A" H 4850 4100 60  0000 R CNN
+F 2 "MX1A:MX1A-simple" H 4750 4050 50  0001 C CNN
+F 3 "" H 4750 4050 50  0001 C CNN
+	1    4750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D3
+U 1 1 5C36E9E5
+P 4700 4200
+F 0 "D3" H 4700 4050 50  0000 C CNN
+F 1 "DIODE" H 4700 4374 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4700 4200 50  0001 C CNN
+F 3 "~" H 4700 4200 50  0001 C CNN
+	1    4700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4200 4900 4200
+Wire Wire Line
+	4950 3900 4950 4200
+Wire Wire Line
+	4500 4200 4500 4450
+$Comp
+L mx1a-simple:MX1A S4
+U 1 1 5C36EB61
+P 6050 4050
+F 0 "S4" H 6000 4350 60  0000 R CNN
+F 1 "MX1A" H 6150 4100 60  0000 R CNN
+F 2 "MX1A:MX1A-simple" H 6050 4050 50  0001 C CNN
+F 3 "" H 6050 4050 50  0001 C CNN
+	1    6050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D4
+U 1 1 5C36EB68
+P 6000 4200
+F 0 "D4" H 6000 4050 50  0000 C CNN
+F 1 "DIODE" H 6000 4374 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4200 6200 4200
+Wire Wire Line
+	6250 3900 6250 4200
+Wire Wire Line
+	5800 4200 5800 4450
+Wire Wire Line
+	5800 4450 6400 4450
+Wire Wire Line
+	5100 3350 5100 4450
+Connection ~ 6400 3400
+Wire Wire Line
+	6400 3400 6400 4450
+Wire Wire Line
+	6400 2100 6400 3400
+Wire Wire Line
+	4200 2500 4550 2500
+Connection ~ 4550 2500
+Wire Wire Line
+	4550 2500 5850 2500
+Wire Wire Line
+	5850 2600 5850 2500
+Connection ~ 5850 2500
+Wire Wire Line
+	5850 2500 6750 2500
+Wire Wire Line
+	4200 3650 4550 3650
+Connection ~ 4550 3650
+Wire Wire Line
+	4550 3650 5850 3650
+Connection ~ 5850 3650
+Wire Wire Line
+	5850 3650 6750 3650
+Connection ~ 6400 4450
+Wire Wire Line
+	6400 4450 6400 5000
+Wire Wire Line
+	4500 4450 5100 4450
+Connection ~ 5100 4450
+Wire Wire Line
+	5100 4450 5100 4950
+Text HLabel 5100 2100 1    50   BiDi ~ 0
+Col0
+Text HLabel 6400 2100 1    50   BiDi ~ 0
+Col1
+Text HLabel 4200 2500 0    50   BiDi ~ 0
+Row0
+Text HLabel 4200 3650 0    50   BiDi ~ 0
+Row1
+$EndSCHEMATC
